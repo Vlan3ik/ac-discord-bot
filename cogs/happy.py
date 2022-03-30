@@ -45,7 +45,7 @@ class happy(commands.Cog):
 	@commands.command(aliases = ['Chess',"Ch","шахматы"])
 	async def __Chess(self,ctx):
 		data = {"max_age": 86400,"max_uses": 0,"target_application_id": 832012774040141894,"target_type": 2,"temporary": False,"validate": None}
-		headers = {"Authorization": "Bot OTE1NjM4NjAyOTUwNjQ3ODg5.Yaeg5g.dtO0XkgRn-pavczXlhV0jECFxJg","Content-Type": "application/json"}
+		headers = {"Authorization": "Bot token","Content-Type": "application/json"}
 		if ctx.author.voice is not None:
 			if ctx.author.voice.channel is not None:
 				channel = ctx.author.voice.channel.id
@@ -61,7 +61,7 @@ class happy(commands.Cog):
 	@commands.command(aliases = ['YT',"yt","YouTube"])
 	async def __YT(self,ctx):
 		data = {"max_age": 86400,"max_uses": 0,"target_application_id": 755600276941176913,"target_type": 2,"temporary": False,"validate": None}
-		headers = {"Authorization": "Bot OTE1NjM4NjAyOTUwNjQ3ODg5.Yaeg5g.dtO0XkgRn-pavczXlhV0jECFxJg","Content-Type": "application/json"}
+		headers = {"Authorization": "Bot token","Content-Type": "application/json"}
 		if ctx.author.voice is not None:
 			if ctx.author.voice.channel is not None:
 				channel = ctx.author.voice.channel.id
@@ -77,7 +77,7 @@ class happy(commands.Cog):
 	@commands.command(aliases = ['Betrayal',"Bt","rayal"])
 	async def __Betrayal(self,ctx):
 		data = {"max_age": 86400,"max_uses": 0,"target_application_id": 773336526917861400,"target_type": 2,"temporary": False,"validate": None}
-		headers = {"Authorization": "Bot OTE1NjM4NjAyOTUwNjQ3ODg5.Yaeg5g.dtO0XkgRn-pavczXlhV0jECFxJg","Content-Type": "application/json"}
+		headers = {"Authorization": "Bot token","Content-Type": "application/json"}
 		if ctx.author.voice is not None:
 			if ctx.author.voice.channel is not None:
 				channel = ctx.author.voice.channel.id
